@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" parallel = "false" thread-count="2" preserve-order="true" name="C:/Users/Admin/IdeaProjects/NeelamDolewarAutomationProject">
+<parameter name="browserName" value="chrome"/>
+        <parameter name="s1" value="selenium"/>
+        <parameter name="s2" value="pune"/>
+        <classes>
+               <class name="Testngparameters.TestNgParametersBrowserExample"/>
+           </classes>
+    </test>
+</suite>
+
+
+
+
